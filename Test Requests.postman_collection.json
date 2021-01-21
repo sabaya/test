@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "0e3252da-ddec-4946-8ab6-6027ae94bc57",
+		"name": "Test Requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get list of commands",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.github.com",
+					"protocol": "https",
+					"host": [
+						"api",
+						"github",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Appium: status",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "0.0.0.0:4723/wd/hub/status",
+					"host": [
+						"0",
+						"0",
+						"0",
+						"0"
+					],
+					"port": "4723",
+					"path": [
+						"wd",
+						"hub",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
